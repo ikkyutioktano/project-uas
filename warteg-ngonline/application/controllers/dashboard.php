@@ -26,7 +26,7 @@ class dashboard extends ci_controller{
             );
     
     $this->cart->insert($data);
-    redirect('dashboard');
+    redirect('welcome');
     }
 
     public function detail_pesanan()
@@ -39,7 +39,7 @@ class dashboard extends ci_controller{
     public function hapus_pesanan()
     {
         $this->cart->destroy();
-        redirect('dashboard/index');
+        redirect('welcome');
     }
 
     public function pembayaran()

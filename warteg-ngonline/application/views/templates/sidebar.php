@@ -19,7 +19,7 @@
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="<?php echo base_url('index.php/welcome') ?>">
         <i class="fas fa-utensils"></i>
           <span>MENU</span></a>
       </li>
@@ -35,19 +35,19 @@
       
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="<?php echo base_url('kategori/makanan_kuah') ?>">
         <i class="fas fa-utensils"></i>
           <span>Makanan Kuah</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="<?php echo base_url('kategori/makanan_kering') ?>">
         <i class="fas fa-utensils"></i>
           <span>Makanan Kering</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="<?php echo base_url('kategori/minuman') ?>">
         <i class="fas fa-wine-glass"></i>
           <span>Minuman</span></a>
       </li>
