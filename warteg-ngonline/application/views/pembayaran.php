@@ -31,11 +31,8 @@
                 <div class="form-group">
                     <label>Jasa Pengiriman</label>
                      <select class="form-control">
-                        <option>JNE</option>
-                        <option>TIKI</option>
-                        <option>POS Indonesia</option>
-                        <option>GOJEK</option>
-                        <option>GRAB</option>
+                        <option>GO-FOOD</option>
+                        <option>GRAB-FOOD</option>
                      </select>
                 </div>
                 <div class="form-group">
